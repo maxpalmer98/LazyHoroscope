@@ -16,8 +16,10 @@ int main()
   cout<<"What is you last name"<<endl;
   cin>> lname;
   cout<<"Welcome "<<fname[0]<<"."<<lname[0]<<". here is your fortune..."<<endl;
-
+  int lucky;
+  lucky = (int)fname.length() + lname.length();
   //tell fortune
+  cout<<"your lucky number is "<<lucky<<endl;
 
   return 0;
 }
