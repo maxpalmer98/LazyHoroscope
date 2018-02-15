@@ -13,9 +13,9 @@ int main()
   //get user input
   cout<<"What is your first name?"<<endl;
   cin>> fname;
-  cout<<"What is you last name?"<<endl;
+  cout<<"What is your last name?"<<endl;
   cin>> lname;
-  cout<<"Welcome "<<fname[0]<<"."<<lname[0]<<". here is your fortune..."<<endl;
+  cout<<"Welcome, "<<fname[0]<<"."<<lname[0]<<"., here is your fortune..."<<endl;
   int lucky;
   lucky = (int)fname.length() + lname.length();
   
@@ -29,8 +29,8 @@ int main()
   }
   else
   {
-  cout<<"you should keep a low profile"<<endl;
-  cout<<"have a good day"<<endl;
+  cout<<"you should keep a low profile."<<endl;
+  cout<<"have a good day!"<<endl;
   }
 
   return 0;
