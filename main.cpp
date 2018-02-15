@@ -24,14 +24,15 @@ int main()
   if (fname[0] == 'E'||fname[0] == 'A'|| fname[0] == 'O'||fname[0] == 'I'||fname[0] == 'U'||fname[0] == 'a'||fname[0] == 'e'||fname[0] == 'i'||fname[0] == 'o'||fname[0] == 'u')
   {
   cout<<"you are destined to be famous!"<<endl;
-  cout<<"have a good day!"<<endl;
   }
   else
   {
   cout<<"you should keep a low profile."<<endl;
-  cout<<"you have already met your true love."<<endl;
-  cout<<"have a good day!"<<endl;
   }
-
+  if (lname[0] == 'E'||lname[0] == 'A'|| lname[0] == 'O'||lname[0] == 'I'||lname[0] == 'U'||lname[0] == 'a'||lname[0] == 'e'||lname[0] == 'i'||lname[0] == 'o'||lname[0] == 'u')
+  {
+  cout<<"you have met your true love."<<endl;
+  }
+  cout<<"have a good day!"<<endl;
   return 0;
 }
