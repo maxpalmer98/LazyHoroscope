@@ -17,15 +17,15 @@ int main()
   cin>> lname;
   cout<<"Welcome, "<<fname[0]<<"."<<lname[0]<<"., here is your fortune..."<<endl;
   int lucky;
-  lucky = (int)fname.length() + lname.length();
+  lucky = (int)fname.length();
   
   //tell fortune
   cout<<"your lucky number is "<<lucky<<endl;
   if (fname[0] == 'E'||fname[0] == 'A'|| fname[0] == 'O'||fname[0] == 'I'||fname[0] == 'U'||fname[0] == 'a'||fname[0] == 'e'||fname[0] == 'i'||fname[0] == 'o'||fname[0] == 'u')
   {
-  cout<<"you are destined to be famous "<<endl;
-  cout<<"you have already met your true love"<<endl;
-  cout<<"have a good day"<<endl;
+  cout<<"you are destined to be famous! "<<endl;
+  cout<<"you have already met your true love."<<endl;
+  cout<<"have a good day!"<<endl;
   }
   else
   {
