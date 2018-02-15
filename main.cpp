@@ -23,13 +23,13 @@ int main()
   cout<<"your lucky number is "<<lucky<<endl;
   if (fname[0] == 'E'||fname[0] == 'A'|| fname[0] == 'O'||fname[0] == 'I'||fname[0] == 'U'||fname[0] == 'a'||fname[0] == 'e'||fname[0] == 'i'||fname[0] == 'o'||fname[0] == 'u')
   {
-  cout<<"you are destined to be famous! "<<endl;
-  cout<<"you have already met your true love."<<endl;
+  cout<<"you are destined to be famous!"<<endl;
   cout<<"have a good day!"<<endl;
   }
   else
   {
   cout<<"you should keep a low profile."<<endl;
+  cout<<"you have already met your true love."<<endl;
   cout<<"have a good day!"<<endl;
   }
 
